@@ -1,12 +1,14 @@
 public class Main{
   public static void main(String[] args){
-    // ①
-    weight == 60
-    // ②
-    (age1 + age2) * 2 >60
-    // ③
-    age % 2 == 1
-    // ④
-    name.equals ("湊")
+    int isHungry = 1;
+    String food = "いちご";
+    System.out.println("こんにちは");
+    if (isHungry == 0){
+      System.out.println("お腹いっぱいです。");
+    } else {
+      System.out.println("腹ペコです。");
+      System.out.println(food + "をいただきます。");
+    }
+    System.out.println("ごちそうさまでした。");
   }
 }

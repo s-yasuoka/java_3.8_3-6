@@ -6,7 +6,7 @@ public class Main{
       System.out.println("散歩に行きます。");
     } else {
       System.out.println("DVDを見ます。");
-      System.out.println("寝ます。")；
+      System.out.println("寝ます。");
     }
   }
 }
